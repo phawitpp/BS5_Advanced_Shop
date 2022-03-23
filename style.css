@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+/* fonts */
+.f1{
+    font-family: 'Old Standard TT', serif;
+}
+.f2{
+    font-family: 'Knewave', cursive;
+}
+.f3{
+    font-family: 'Kanit', sans-serif;
+}
+/* fontsize */
+.fs-16{
+    font-size:16px;
+
+}
+.fs-24{
+    font-size:24px;
+}
+.fs-36{
+    font-size:36px;
+}
+.fs-72{
+    font-size:72px;
+}
+
+/* others */
+.unactive{
+    color: #929191;
+    text-decoration: none;
+}
+.unactive:hover{
+    color:rgb(83, 83, 83);
+}
+.hov:hover{
+    background-color: #dfdede;
+    border-color: #dfdede;;
+}
+.btn-buy{
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
