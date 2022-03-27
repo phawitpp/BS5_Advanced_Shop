@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+/* Link */
+.unactive{
+    color: #929191;
+    text-decoration: none;
+}
+.unactive:hover{
+    color:rgb(83, 83, 83);
+}
+/* fonts */
+.f1{
+    font-family: 'Old Standard TT', serif;
+}
+.f2{
+    font-family: 'Knewave', cursive;
+}
+.f3{
+    font-family: 'Kanit', sans-serif;
+}
+/* Search box */
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+}
+.search2 {
+    position: relative;
+}
+
+.search input {
+    height: 50px;
+    text-indent: 60px;
+    border: 2px solid #d6d4d4;
+    border-radius: 30px;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid rgb(75, 73, 73);
+}
+.search input:focus::placeholder {
+    color: transparent;
+}
+.search .fa-search {
+    position: absolute;
+    top: 18px;
+    left: 170px;
+    text-decoration: none;
+    color: black;
+}
+.search2 input {
+    height: 50px;
+    text-indent: 50px;
+    border: 2px solid #d6d4d4;
+    border-radius: 30px;
+}
+
+.search2 input:focus {
+    box-shadow: none;
+    border: 2px solid rgb(75, 73, 73);
+}
+.search2 input:focus::placeholder {
+    color: transparent;
+}
+.search2 .fa-search {
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    text-decoration: none;
+    color: black;
+}
+/* fontsize */
+.fs-16{
+    font-size:16px;
+
+}
+.fs-24{
+    font-size:24px;
+}
+.fs-36{
+    font-size:36px;
+}
+.fs-72{
+    font-size:72px;
+}
+
+/* Button css */
+.hov:hover{
+    background-color: #dfdede;
+    border-color: #dfdede;;
+}
+.hovbuy:hover{
+    border-radius: 30px;
+    border: 1px solid #000000;
+    background-color: #f7f7f7;
+}
+.btn-buy{
+    border-radius: 30px;
+    border: 1px solid #b6b6b6;
+}
+
+/* Fixed Footer */
+#foot{
+    position: relative;
+    margin-top: 12%;
+}
+@media screen and (max-width: 767px) {
+    #foot {
+        position: relative;
+    }
+}
