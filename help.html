@@ -28,7 +28,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapseJubjub">
-                <div class="nav-link navbar-text p-3">
+                <div class="nav-link p-3">
                     <a href="index.html" class="unactive">Home</a>
                 </div>
                 <div class="nav-link p-3">
@@ -56,24 +56,22 @@
         </div>
     </nav>
     <!-- content -->
-    <div class="container">
-        <div class="text-center m-5 d-flex flex-column align-items-center">
+    <div class="container d-flex flex-column align-items-center">
+        <div class="text-center m-5">
             <h1>Help & Issues</h1>
-                <div class="search2 w-50"> <input type="text" class="form-control" placeholder="Search"><i
+                <div class="search2 w-100"> <input type="text" class="form-control" placeholder="Search"><i
                         class="fa fa-search"></i> </div>
 
         </div>
-        <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion accordion-flush w-100">
             <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                        aria-controls="panelsStayOpen-collapseOne">
-                        Accordion Item #1
+                        data-bs-target="#one" aria-expanded="true">
+                        How to Buy ?
                     </button>
                 </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                    aria-labelledby="panelsStayOpen-headingOne">
+                <div id="one" class="accordion-collapse collapse show">
                     <div class="accordion-body">
                         <strong>This is the first item's accordion body.</strong> It is shown by default, until the
                         collapse plugin adds the appropriate classes that we use to style each element. These classes
@@ -85,15 +83,13 @@
                 </div>
             </div>
             <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseTwo">
-                        Accordion Item #2
+                        data-bs-target="#two" aria-expanded="false">
+                        How to checkout ?
                     </button>
                 </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                    aria-labelledby="panelsStayOpen-headingTwo">
+                <div id="two" class="accordion-collapse collapse">
                     <div class="accordion-body">
                         <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
                         collapse plugin adds the appropriate classes that we use to style each element. These classes
@@ -105,15 +101,13 @@
                 </div>
             </div>
             <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseThree">
-                        Accordion Item #3
+                        data-bs-target="#three" aria-expanded="false">
+                        Email US
                     </button>
                 </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                    aria-labelledby="panelsStayOpen-headingThree">
+                <div id="three" class="accordion-collapse collapse">
                     <div class="accordion-body">
                         <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
                         collapse plugin adds the appropriate classes that we use to style each element. These classes
@@ -125,9 +119,10 @@
                 </div>
             </div>
         </div>
+        <hr>
     </div>
     <!-- footer -->
-    <footer class="page-footer font-small blue pt-4">
+    <footer class="w-100" style="bottom: 0;" id="foot">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
                 <div class="col-md-6 mt-md-0 mt-3">

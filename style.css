@@ -100,3 +100,12 @@ body{
     border: 1px solid #b6b6b6;
 }
 
+/* Fixed Footer */
+#foot{
+    position: absolute;
+}
+@media screen and (max-width: 767px) {
+    #foot {
+        position: relative;
+    }
+}
