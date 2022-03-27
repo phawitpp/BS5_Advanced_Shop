@@ -24,6 +24,9 @@ body{
     position: relative;
     box-shadow: 0 0 40px rgba(51, 51, 51, .1);
 }
+.search2 {
+    position: relative;
+}
 
 .search input {
     height: 50px;
@@ -39,11 +42,31 @@ body{
 .search input:focus::placeholder {
     color: transparent;
 }
-
 .search .fa-search {
     position: absolute;
     top: 18px;
     left: 170px;
+    text-decoration: none;
+    color: black;
+}
+.search2 input {
+    height: 50px;
+    text-indent: 50px;
+    border: 2px solid #d6d4d4;
+    border-radius: 30px;
+}
+
+.search2 input:focus {
+    box-shadow: none;
+    border: 2px solid rgb(75, 73, 73);
+}
+.search2 input:focus::placeholder {
+    color: transparent;
+}
+.search2 .fa-search {
+    position: absolute;
+    top: 18px;
+    left: 25px;
     text-decoration: none;
     color: black;
 }
