@@ -59,16 +59,16 @@
     <div class="container d-flex flex-column align-items-center">
         <div class="text-center m-5">
             <h1>Help & Issues</h1>
-                <div class="search2 w-100"> <input type="text" class="form-control" placeholder="Search"><i
-                        class="fa fa-search"></i> </div>
+            <div class="search2 w-100"> <input type="text" class="form-control" placeholder="Search"><i
+                    class="fa fa-search"></i> </div>
 
         </div>
         <div class="accordion accordion-flush w-100">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#one" aria-expanded="true">
-                        How to Buy ?
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#one"
+                        aria-expanded="true">
+                        <b>How to Buy ?</b>
                     </button>
                 </h2>
                 <div id="one" class="accordion-collapse collapse show">
@@ -86,7 +86,7 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#two" aria-expanded="false">
-                        How to checkout ?
+                        <b>How to checkout ?</b>
                     </button>
                 </h2>
                 <div id="two" class="accordion-collapse collapse">
@@ -104,31 +104,61 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#three" aria-expanded="false">
-                        Email US
+                        <b>Email US</b>
                     </button>
                 </h2>
                 <div id="three" class="accordion-collapse collapse">
                     <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <form action="" class="form-control" >
+                            <div class="row m-4 d-flex flex-row g-3">
+                                <div class="col-lg-4">
+                                    <label for="" class="form-label">Type</label>
+                                    <select class="form-select form-select-sm" name="" id="">
+                                        <option selected>Select Problem Type</option>
+                                        <option>Buying</option>
+                                        <option>Products</option>
+                                        <option>Payment</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-8">
+                                    <label for="title" class="form-label">Title</label>
+                                    <input type="text" class="form-control" placeholder="Title" id="title">
+                                </div>
+                                <div class="col-lg-5 form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="name" value="Name-surname">
+                                    <label for="name" class="form-label">Name</label>
+                                </div>
+                                <div class="col-lg-4 form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Email" value="xxxx@xxxx.com">
+                                    <label for="email" class="form-label">Email</label>
+                                </div>
+                                <div class="col-lg-3 form-floating">
+                                    <input type="tel" class="form-control" id="number">
+                                    <label for="number" class="form-label">Phone Number</label>
+                                </div>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-light">Detail</span>
+                                    <textarea name="" id="" cols="30" rows="4" class="form-control"></textarea>
+                                </div>
+                                <div clas="col-lg-12">
+                                    <input type="file" class="form-control">
+                                </div>
+                                <button class="btn btn-light">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <hr>
     </div>
     <!-- footer -->
     <footer class="w-100" style="bottom: 0;" id="foot">
+        <hr width="80%" style="margin-left: 11%;">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
                 <div class="col-md-6 mt-md-0 mt-3">
                     <h5 class="text-uppercase">Phawit</h5>
                     <p>This website is inspiration from Nike and Adidas Website</p>
-                    <p>That created by Mr.Phawit Monchaising the intiligence programmer (Joking)</p>
+                    <p>That created by Mr.Phawit Monchaising the intiligence programmer</p>
 
                 </div>
                 <hr class="clearfix w-100 d-md-none pb-3">
